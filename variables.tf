@@ -23,3 +23,5 @@ variable "default-amazon-linux-x8664-image" {
     default = "ami-026b57f3c383c2eec"
 }
 
+
+
