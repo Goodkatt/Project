@@ -26,7 +26,7 @@ resource "aws_subnet" "private-subnet-az2" {
     }
 }
 
-
+/*
 resource "aws_nat_gateway" "nat-gateway-for-private-subnet" {
     allocation_id = aws_eip.elastic-ip-natgw.id
     subnet_id = aws_subnet.private-subnet-az1.id
@@ -82,3 +82,4 @@ resource "aws_instance" "default-3" {
       "Name" = "In Amazon provided subnet"
     }
 }
+*/
