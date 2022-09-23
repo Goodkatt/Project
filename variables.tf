@@ -18,3 +18,7 @@ variable "default-az-2" {
   type = string
   default = "us-east-1b"
 }
+variable "default-amazon-linux-x8664-image" {
+    type = string
+    default = "ami-026b57f3c383c2eec"
+}
